@@ -1,0 +1,96 @@
+.container {
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    gap:5px;
+}
+
+.diceboxarea{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(208, 166, 166);
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border:solid;
+    border-color: black;
+}
+
+.dice_1{
+    width:100px;
+    height:100px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.dice_2{
+    width:100px;
+    height:100px;
+    margin-top: 50px;
+}
+
+.roll{
+    color:rgb(18, 16, 16);
+    width: 200px;
+    height: 80px;
+    font-size:30px;
+    background-color:rgb(219, 212, 145) ;
+    border-radius: 10px;
+    border:none;
+    margin-top:-5px;
+    margin-left: 200px;
+}
+
+.roll:hover{
+    background: rgba(80, 78, 78, 0.356);
+}
+
+.containerBottom{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:100px;
+    margin: 0 auto;
+}
+
+.player{
+    height: 100px;
+    text-align:center;
+}
+
+.ScoreArea{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 200px;
+    height: 100px;
+    background-color:rgb(244, 237, 102);
+    border-radius: 10%;
+    border:solid;
+    border-color:black;
+}
+
+.ScoreArea p{
+    font-size:50px;
+    font-weight:bold;
+
+}
+
+#instruction{
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.playerimg1{
+    width: 100px;
+    height: 100px;
+}
+
+.imgScore1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgScore2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
